@@ -9,9 +9,13 @@ Grunt自动构建工具，为了能在全局环境下执行grunt命令：
 2.	将grunt作为devDependencies 在项目本地安装，npm install –save-dev grunt
 
 3.	创建并配置 Gruntfile.js ，用于配置grunt 的各项执行任务，简要格式如下：
+
   a)	module.exports = function(grunt){……}
+  
   b)	grunt.initConfig({……})，配置各个工具包的各项配置
+  
   c)	加载使用的工具包，grunt.loadNpmTasks(……)
+  
   d)	注册任务执行的命令，grunt.registerTask()
 
 
