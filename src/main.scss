@@ -1,0 +1,11 @@
+$one:100px;
+$two:200px;
+
+body{
+	width: $one;
+	height: $two;
+
+	div{
+		margin:100px;
+	}
+}

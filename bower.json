@@ -1,0 +1,17 @@
+{
+  "name": "bower.json",
+  "description": "zheling",
+  "main": "index.js",
+  "authors": [
+    "zhelingwang"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "bower"
+  ],
+  "homepage": "index.html",
+  "dependencies": {
+    "jQuery": "^3.2.1",
+    "bootstrap": "^3.3.7"
+  }
+}
